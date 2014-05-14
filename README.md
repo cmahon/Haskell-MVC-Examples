@@ -1,15 +1,15 @@
 # MVC Examples
 
-Examples for the Haskell MVC library (only tested on OS X)
+Examples for the Haskell MVC library
 
 * StdInOut.hs: Simple input / output with a regular tick event (from [MVC library article][mvc-article])
-* Rectangles.hs: Draw rectangles us (adpated from [MVC library article][mvc-article] using an [SDL wrapper][sdl-osx-article] for OS X)
+* Rectangles.hs: Draw rectangles (adpated from [MVC library article][mvc-article] using an [SDL wrapper for OS X][sdl-osx-article])
 
 ## Setup
 
 Tested on OS X with ghc 7.6.3 and cabal 1.20.
 
-    git clone https://github.com/cmahon/mvc-xamples.git
+    git clone https://github.com/cmahon/mvc-examples.git
     cd mvc-xamples
     cabal sandbox init
     cabal install --only-dependencies
