@@ -9,33 +9,33 @@
 #include <SDL.h>
  
 #ifdef __GLASGOW_HASKELL__
-#include "Example2Main_stub.h"
-extern void __stginit_Example2Main ( void );
+#include "RectanglesMain_stub.h"
+extern void __stginit_RectanglesMain ( void );
 #endif
  
 int SDL_main(int argc, char *argv[])
 {
-    int i;
+  int i;
  
 #ifdef __APPLE__
-    void * pool =
-        objc_msgSend((id)objc_lookUpClass("NSAutoreleasePool"), sel_getUid("alloc"));
-    objc_msgSend(pool, sel_getUid("init"));
+  void * pool = objc_msgSend((id)objc_lookUpClass("NSAutoreleasePool"), sel_getUid("alloc"));
+  objc_msgSend(pool, sel_getUid("init"));
 #endif
  
-    hs_init(&argc, &argv);
+  hs_init(&argc, &argv);
 
 #ifdef __GLASGOW_HASKELL__
-    hs_add_root(__stginit_Example2Main);
+  hs_add_root(__stginit_RectanglesMain);
 #endif
  
-    example2_main();
+  rectangles_main();
  
-    hs_exit();
- 
+  hs_exit();
+
 #ifdef __APPLE__
-    objc_msgSend(pool, sel_getUid("release"));
+  objc_msgSend(pool, sel_getUid("release"));
 #endif
-    return 0;
+  
+  return 0;
 }
 

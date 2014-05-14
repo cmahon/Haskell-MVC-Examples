@@ -1,6 +1,6 @@
 {-# LANGUAGE ForeignFunctionInterface #-}
 
-module Example2Main where 
+module RectanglesMain where 
 
 import Control.Monad (join)
 import Graphics.UI.SDL as SDL
@@ -9,7 +9,7 @@ import MVC
 import MVC.Prelude
 import qualified Pipes.Prelude as Pipes
 
-foreign export ccall example2_main :: IO ()
+foreign export ccall rectangles_main :: IO ()
 
 data Done = Done deriving (Eq, Show)
 
@@ -59,8 +59,8 @@ click = do
             return (fromIntegral x, fromIntegral y)
         _ -> click
 
-example2_main :: IO ()
-example2_main = runMVC () (asPipe pipe) sdl
+rectangles_main :: IO ()
+rectangles_main = runMVC () (asPipe pipe) sdl
 
 
 
