@@ -15,7 +15,7 @@ Tested on OS X with ghc 7.6.3 and cabal 1.20.
     cabal install --only-dependencies
     cabal configure
     cabal build
-    cabal run stdinout
+    cabal run consoleinout
     cabal run rectangles
 
 ## Reference
