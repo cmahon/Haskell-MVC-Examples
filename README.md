@@ -2,7 +2,7 @@
 
 Examples for the Haskell MVC library
 
-* StdInOut.hs: Simple input / output with a regular tick event (from [MVC library article][mvc-article])
+* ConsoleInOut.hs: Simple input / output with a regular tick event (from [MVC library article][mvc-article])
 * Rectangles.hs: Draw rectangles (adpated from [MVC library article][mvc-article] using an [SDL wrapper for OS X][sdl-osx-article])
 
 ## Setup
