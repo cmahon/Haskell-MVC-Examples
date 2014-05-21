@@ -10,7 +10,7 @@ Examples for the Haskell MVC library
 Tested on OS X with ghc 7.6.3 and cabal 1.20.
 
     git clone https://github.com/cmahon/mvc-examples.git
-    cd mvc-xamples
+    cd mvc-examples
     cabal sandbox init
     cabal install --only-dependencies
     cabal configure
