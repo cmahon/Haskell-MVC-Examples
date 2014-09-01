@@ -3,9 +3,10 @@
 Examples for the Haskell MVC library
 
 * ConsoleInOut.hs: Simple input / output with a regular tick event (from [MVC library article][mvc-article])
-* RectanglesMain.hs: Draw rectangles (adpated from [MVC library article][mvc-article] using an [SDL wrapper for OS X][sdl-osx-article])
-* FlappyMain.hs: Animate flapping bird around cursor (adpated from [MVC updates article][mvc-updates-article] using an [SDL wrapper for OS X][sdl-osx-article])
-* SpreadsheetMain.hs: basic spreadsheet (adpated from [MVC updates article][mvc-updates-article])
+* RectanglesMain.hs: Draw rectangles (adapted from [MVC library article][mvc-article] using an [SDL wrapper for OS X][sdl-osx-article])
+* ConsoleUpdates.hs: Basic combined inputs (adapted from [MVC updates article][mvc-updates-article])
+* FlappyMain.hs: Animate flapping bird around cursor (adapted from [MVC updates article][mvc-updates-article] using an [SDL wrapper for OS X][sdl-osx-article])
+* SpreadsheetMain.hs: basic spreadsheet (adapted from [MVC updates article][mvc-updates-article])
 
 ## Setup
 
